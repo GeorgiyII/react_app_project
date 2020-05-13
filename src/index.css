@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+	margin: -10px -10px 0 -10px;
+	padding: 20px;
+	background: #a97180;
+	color: white;
+	height: 50px;
+}
+/*Логотип в шапке*/
+.header .logotype {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 40px;
+	padding: 0 10px 10px 10px;
+	float: left;
+}
+.header .logotype a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer {
+	padding: 20px;
+	background: #a97180;
+	color: white;
+}
+.footer .logotype {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	padding: 0 10px 10px 10px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.footer .logotype a {
+	text-decoration: none;
+	color: white;
+}
+.footer .contacts {
+	width: 300px;
+	height: 70px;
+	float: right;
+	margin-top: -10px;
+	margin-right: 100px;
+}
+.footer .contacts p {
+	margin: 0 0 5px 0;
+}
+.footer .contacts a {
+	margin-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+.footer .contacts a:hover {
+	color: #83b3c9;
+}
+.content .content-block {
+    width: 100%;
+    height:100%;
+}
+.content .content-wrapper {
+	width: 1280px;
+	position: relative;
+	left: calc(50% - 640px);
+}
